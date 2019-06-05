@@ -20,3 +20,5 @@ public class Bool {
 	}
 	static void prt(String s) {		System.out.println(s);	} 
 }
+//Dall’output di questo programma si può notare che le rappresentazioni stringa di un valore boolean Java, 
+//sono i letterali true o false operatori 

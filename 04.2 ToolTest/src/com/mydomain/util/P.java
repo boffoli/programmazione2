@@ -1,3 +1,4 @@
+// Abbreviazioni P.rint & P.rintln
 package com.mydomain.util;
 
 public class P {
