@@ -1,3 +1,4 @@
+//Riuso per composizione
 class WaterSource {
 	private String s;
 	WaterSource() {
