@@ -34,6 +34,5 @@ public class mergeSort {
 	            dest[i] = src[q++];
 	    }
 	}
-	
-}
 
+}
