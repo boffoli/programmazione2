@@ -1,5 +1,4 @@
 // realizzazione di una eccezione personalizzata.
-
 class SimpleException extends Exception {}
 
 public class SimpleExceptionDemo {
