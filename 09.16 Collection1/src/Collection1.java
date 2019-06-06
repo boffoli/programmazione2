@@ -1,13 +1,13 @@
-package com.prova.util;
 // Uso di Collection e Collections.
 
 import java.util.*;
 import com.prova.util.*;
+import java.lang.Object.;
 
 public class Collection1 {
 	public static void main(String[] args) {
 		Collection c = new ArrayList();
-		Collections2.fill(c,Collections2.countries, 10);
+		Collections.fill(c,Collections2.countries, 10);
 		c.add("ten");
 		c.add("eleven");
 		System.out.println(c);

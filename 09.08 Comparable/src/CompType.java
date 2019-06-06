@@ -1,4 +1,4 @@
-package com.prova.util;
+
 // Implementare l’interfaccia Comparable.
 import com.prova.util.*;
 import java.util.*;
@@ -30,9 +30,9 @@ public class CompType implements Comparable {
 	
 	public static void main(String[] args) {
 		CompType[] a = new CompType[10];
-		Arrays2.fill(a, generator());
+		Arrays.fill(a, generator());
 		Arrays2.print("before sorting, a = ", a);
-		Arrays2.sort(a);
+		Arrays.sort(a);
 		Arrays2.print("after sorting, a = ", a);
 		}
 }

@@ -14,16 +14,10 @@ class Studente implements Comparable{
 	}
 	
 	public int compareTo(Object o){
-		Studente s=(Studente)o;
-		if(s.numeroEsami==numeroEsami){
-			return 0;
-		
-		/**else 
-				if(s.numeroEsami<numeroEsami)
-					return -1;
-				else 
-					return 1;*/
+		Studente s= (Studente)o;
+		if(s.numeroEsami==numeroEsami)
+			return 0;		
+		else if(s.numeroEsami<numeroEsami)	return -1;
+			else 							return 1;
 		}
-		
-	}
 }
